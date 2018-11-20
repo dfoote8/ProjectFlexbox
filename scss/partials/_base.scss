@@ -1,0 +1,62 @@
+$blue-color:rgb(124, 124, 189);
+$default-font-size:16px;
+body{
+    background-color: rgb(5, 109, 66);
+    padding:$dbl-gutter;
+}
+.container{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-flow: row;
+}
+h1{
+    color: white;
+}
+p{
+    color: white;
+    font-size: $default-font-size;
+}
+header{
+    font-size: $default-font-size;
+    background-color: rgb(5, 65, 5);
+    color: white;
+}
+.box{
+    width: 200px;
+    height: 500px;
+    background-color: $blue-color;
+    margin: 15px;
+    font-size: 25px;
+}
+//.box a{
+  //  color: red;
+//}
+//.box a:hover{
+   // color: green;
+//}
+
+.box{
+    height: 300px;
+    a{
+        color:red;
+        text-decoration:none;
+        &hover{
+            color:green;
+        }
+    }
+}
+.second-box{
+    width: 200px;
+    height: 200px;
+    background-color: $blue-color;
+    margin: 15px; 
+    font-size: $default-font-size;
+    align-content: center;
+    justify-items: center;
+    flex-basis: auto;
+}
+.button{
+    background-color: $primary-btn;
+    color: white;
+}

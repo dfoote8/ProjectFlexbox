@@ -1,22 +1,5 @@
 
 @import 'vendor/normalize.scss';
 @import 'partials/colors';
-$blue-color:rgb(28, 28, 248);
-$default-font-size:16px;
-body{
-    background-color: yellow;
-}
-.box{
-    width: 200px;
-    height: 200px;
-    background-color: $blue-color;
-    margin: 15px;
-    font-size: 25px;
-}
-.second-box{
-    width: 200px;
-    height: 200px;
-    background-color: $blue-color;
-    margin: 15px;
-    font-size: $default-font-size;
-}
+@import 'partials/variables';
+@import 'partials/base';
